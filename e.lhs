@@ -9,8 +9,8 @@ tai [] jos ei saada kaikkia
 
 Vaiheet:
 
-- Kloonataan ja siivotaan skeleton (tän vois tehdä valmiiksi)
 - Parsitaan input, palautetaan vakioarvo
+  ssh://git@git.reaktor.fi/public/jpaanane/haskell-skole-trainwreck-1
 - Staattinen juna, algoritmi: Int -> Train -> [Ticket]
 - Kunnon algoritmi: 
 - Otetaan globaali tila käyttöön: STM TVar train, tämä initialisoidaan Mainissa
