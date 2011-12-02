@@ -31,9 +31,4 @@ grep s = findAll >>= mapM grepInFile >>= (mapM_ (putStrLn . format)) . concat
                  . zip [1..] . lines
         format :: (FilePath, String, Int) -> String
         format (f, ln, num) = f ++ "(" ++ (show num) ++"): " ++ ln
-        findAll = forM fileNames maybeFileName >>= return . catMaybes 
-        maybeFileName f = doesFileExist f >>= return . ifTrue f 
-        fileNames = map (: ".lhs") chars
-        ifTrue x True  = Just x
-        ifTrue _ False = Nothing
-
+        findAll = getDirectoryContents "." >>= return . filter (".lhs" `isInfixOf`)
