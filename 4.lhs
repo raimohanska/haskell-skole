@@ -9,6 +9,6 @@ map length ["juha", "lol"]
 filter (<3) [1, 2, 3]
 foldr (+) 0 [1,2,3]
 
-Hoogle-haku esimerkki: (a -> Bool) -> [a] -> ([a], [a])
+Harkka: sorttaa resut resunumerolla. Käytä hooglea!
 
->
+> resut = [(73, "paanis"), (2, "lauronen"), (74, "uus jaba")]

@@ -10,7 +10,7 @@ import System.Directory
 
 index = unsafePerformIO $ newIORef 0
 
-chars = ['1'..'9']++['a'..'z']
+chars = ['0'..'9']++['a'..'z']
 
 current = readIORef index >>= return . (: ".lhs") . (chars !!) 
   >>= \fileName -> do 

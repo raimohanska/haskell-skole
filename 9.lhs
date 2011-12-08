@@ -14,6 +14,4 @@ Funktio-kompositio
 >            anyFreeSeats (Car _ _) = True
 >            number (Car a _) = a
 
-Koe : "korkeintaan 4-merkkisten sanojen pituuksien summa"
-
-
+Harkka : "korkeintaan 4-merkkisten sanojen pituuksien summa"
