@@ -1,17 +1,9 @@
 Funktio-kompositio
 ==================
 
-"vaunujen numerot, joissa paikkoja vapaana"
+> import GHC.Exts(sortWith)
+> resut = [(2, "vesa"), (50, "vessi"), (140, "londen")]
+> sorted rs = map snd $ sortWith fst $ rs 
+> newbies = map snd . sortWith fst . filter ((<100) . fst)
 
-> type Seat = String
-> data Car = Car Int [Seat]
 
-> car1 = Car 1 ["a1", "b1"]
-> car2 = Car 2 []
-
-> freeCars = map number . filter anyFreeSeats
->      where anyFreeSeats (Car _ []) = False
->            anyFreeSeats (Car _ _) = True
->            number (Car a _) = a
-
-Harkka : "korkeintaan 4-merkkisten sanojen pituuksien summa"
