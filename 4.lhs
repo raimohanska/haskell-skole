@@ -11,4 +11,4 @@ foldr (+) 0 [1,2,3]
 
 Harkka: sorttaa resut resunumerolla. Käytä hooglea!
 
-> resut = [(73, "paanis"), (2, "lauronen"), (74, "uus jaba")]
+> resut = [(100, "vilhonen"), (2, "lauronen"), (200, "uus jaba")]

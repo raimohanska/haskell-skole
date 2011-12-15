@@ -9,6 +9,7 @@ Tyypit
 - Tuplet : (a, b) tai (a, b, c, d)
 - Funktiot (a -> b)
 - data Event a = Next a | End | Error
+- data Resu = Resu { number :: Int, name :: String }
 - parametrisointi
 
 >

@@ -5,5 +5,4 @@ is a typeclass
 
 It's just >>= and return
 
-=> programmable semicolons!
- 
+Can use do-notation for any monad!

@@ -8,6 +8,7 @@ import Data.List
 import Data.Maybe
 import System.Directory
 
+index :: IORef Int
 index = unsafePerformIO $ newIORef 0
 
 chars = ['0'..'9']++['a'..'z']

@@ -1,6 +1,7 @@
 Do-notation
 ===========
 
+> import Control.Monad
 > cat2 = do
 >   fileName <- getLine
 >   fileContents <- readFile fileName
