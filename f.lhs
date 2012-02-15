@@ -11,5 +11,5 @@ GET /karma/atte/juha
 TODO:
 - Install MongoDB
 - git clone ssh://git@git.reaktor.fi/public/jpaanane/haskell-skole-harma
-- toteutetaan Karma-algoritmi
-- hooglaa: mongo
+- Implement the algorithm
+- Hoogle: mongo

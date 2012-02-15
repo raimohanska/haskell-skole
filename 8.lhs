@@ -1,4 +1,4 @@
-Komentoriviparametrit
+Command line parameters
 =====================
 
 main = getArgs >>= git

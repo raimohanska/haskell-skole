@@ -1,15 +1,15 @@
-Tyypit
+Types
 ======
 
-- Numerot
+- Numbers
 - Bool
 - Char
-- Listat : [a]
+- Lists : [a]
 - String = [Char]
-- Tuplet : (a, b) tai (a, b, c, d)
-- Funktiot (a -> b)
+- Tuples : (a, b) tai (a, b, c, d)
+- Functions (a -> b)
 - data Event a = Next a | End | Error
-- data Resu = Resu { number :: Int, name :: String }
-- parametrisointi
+- data Employee = Employee { number :: Int, name :: String }
+- Type parameterization
 
 >

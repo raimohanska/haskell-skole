@@ -1,5 +1,5 @@
-Funktio-kompositio
-==================
+Function composition
+====================
 
 > import GHC.Exts(sortWith)
 > resut = [(2, "vesa"), (50, "vessi"), (140, "londen")]

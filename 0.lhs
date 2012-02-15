@@ -1,10 +1,10 @@
 Haskell
 =======
 
-- Funktionaalinen
-- Puhdas/sivuvaikutuksellinen koodi
+- Functional PL
+- Separate pure / side-effects
 - Lazy evaluation
-- Monadit
+- Monads
 - Meaningful whitespace
 
 

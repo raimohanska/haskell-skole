@@ -1,17 +1,17 @@
-Lipunvarausjarjestelma
-======================
+Ticket reservation system
+=========================
 
 POST /ticket/ {amount : 2}
 =>
      [{ "car" : 1, "seat" : 2},{ "car" : 1, "seat" : 4}] 
 
-tai [] jos ei saada kaikkia
+or [] if not possible to reserve all tickets
 
-Vaiheet:
+Phases:
 
 - Clone from git: https://github.com/raimohanska/trainwreck
-- Parsitaan input, palautetaan vakioarvo
-- Staattinen juna, algoritmi: Int -> Train -> [Ticket]
-- Kunnon algoritmi: 
-- Otetaan globaali tila käyttöön: STM TVar train, tämä initialisoidaan Mainissa
+- Parse input, return constant value
+- Static train, algorithm: Int -> Train -> [Ticket]
+- Real algorithm
+- Use STM for global state: STM TVar train, init in main
 

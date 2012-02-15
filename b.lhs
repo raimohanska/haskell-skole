@@ -16,7 +16,7 @@ Do-notation
 >      content <- readFile fileName
 >      putStrLn content
 
-Mutta Freeman kirjoittaisi
+But you could also do
  
 > catMany2 = getLine >>= return . words >>= mapM_ (readFile >=> putStrLn)
 
