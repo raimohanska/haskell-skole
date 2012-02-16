@@ -22,6 +22,7 @@ current = readIORef index >>= return . (: ".lhs") . (chars !!)
 next  = relative (+ 1)
 prev  = relative (\i -> i - 1)
 go n  = relative $ const $ fromJust $ elemIndex n chars
+first = go '0'
 
 relative f = modifyIORef index f >> current
 grep s = findAll >>= mapM grepInFile >>= (mapM_ (putStrLn . format)) . concat
