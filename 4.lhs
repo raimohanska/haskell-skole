@@ -12,3 +12,5 @@ foldr (+) 0 [1,2,3]
 Excercise: sort employees by employee number. Use hoogle!
 
 > employees = [(100, "vilhonen"), (2, "lauronen"), (200, "new guy")]
+
+Full solution in Employees.hs
