@@ -18,3 +18,5 @@ Excercise : show "lauronen" if name equals "vesa"
 Excercise 2: replace name with "new guy" if employee number > 2
 
 > employees = [(2, "vesa"), (50, "vessi"), (140, "londen")]
+
+Full solution in Lauronen.hs
